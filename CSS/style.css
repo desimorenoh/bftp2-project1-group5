@@ -1,3 +1,15 @@
-body {
-    background-color: chartreuse;
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+menu-top ul {
+    list-style: none;
+}
+
+.gifcabecera {
+    max-width: 100%;
+    max-height: 100px;
+    display: block;
 }
