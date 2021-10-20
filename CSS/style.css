@@ -1,3 +1,11 @@
+.centrar{
+    
+width: 100%;
+}
+
+
+
+
 .header {
     display: flex;
     flex-direction: row;
@@ -32,6 +40,8 @@
 
 
 .gifcabecera {
-    justify-content: center;
+    width: 100%;
 
 }
+
+
