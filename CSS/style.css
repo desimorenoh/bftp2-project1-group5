@@ -12,6 +12,7 @@ width: 100%;
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    
         }
 
 .header img {
@@ -40,8 +41,19 @@ width: 100%;
 
 
 .gifcabecera {
+<<<<<<< HEAD
     width: 100%;
+=======
+   width: 100%;
+>>>>>>> 8f8307a13201c737f27659c25afd8338402eb771
 
+    
 }
+<<<<<<< HEAD
 
 
+=======
+.gifcabecera img {
+    width: 100%;
+}
+>>>>>>> 8f8307a13201c737f27659c25afd8338402eb771
