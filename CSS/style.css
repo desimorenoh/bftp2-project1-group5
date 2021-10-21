@@ -8,8 +8,8 @@
         }
 
 .header img {
-    width: 150px;
-    height: 75px;
+    width: 120px;
+    height: 60px;
 }
 
 .header ul {
@@ -19,7 +19,7 @@
 
 .header ul li {
     list-style: none;
-    display: inline;
+    display: flex;
     padding-left: 10px;
     padding-right: 50px;
     margin: auto;
@@ -33,10 +33,11 @@
 
 
 .gifcabecera {
-   width: 100%;
-
-    
+   width: 100%; 
+     
 }
+
 .gifcabecera img {
     width: 100%;
+    
 }
