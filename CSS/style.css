@@ -1,3 +1,11 @@
+.centrar{
+
+width: 100%;
+}
+
+
+
+
 .header {
     display: flex;
     flex-direction: row;
@@ -41,6 +49,8 @@
     width: 100%;
 }
 
+
 .header ul a:hover {
     color: #EF2828;
+
 }
