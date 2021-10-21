@@ -39,5 +39,8 @@
 
 .gifcabecera img {
     width: 100%;
-    
+}
+
+.header ul a:hover {
+    color: #EF2828;
 }
