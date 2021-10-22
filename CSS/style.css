@@ -70,6 +70,12 @@ padding: 0 40px 20px 40px;
     padding-bottom: 30px;
 }
 
+.personalempresa h4, h3 {
+
+text-align: center;
+
+}
+
 
 
 .imgperfil img {
@@ -84,12 +90,12 @@ padding: 0 40px 20px 40px;
 
 .icon img {
 
+justify-content: center;
+background-color: aqua;
 width: 20px;
 height: 20px;
 
 }
-
-
 
 .footer {
     display: flex;
