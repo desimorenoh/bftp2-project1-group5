@@ -59,9 +59,20 @@ text-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
 color: #5c5657;
 padding: 0 40px 20px 40px;
 
-
-
 }
+
+.personalempresa {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+
+
+
 .cuadradomarta img {
     width: 250px;
     height: 250px;
@@ -69,6 +80,35 @@ padding: 0 40px 20px 40px;
     box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
 
 }
+
+.cuadradokris img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
+
+}
+
+.cuadradodesi img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
+
+}
+
+.cuadradosara img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
+
+}
+
+
+
+
+
 
 
 .footer {
