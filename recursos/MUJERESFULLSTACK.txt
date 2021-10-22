@@ -8,7 +8,5 @@ COLORES:
 #EF2828
 #474749
 
-
-.header ul a:hover {
-    color: #EF2828;
-
+.textoquienessomos
+padding: 10px 60px;
