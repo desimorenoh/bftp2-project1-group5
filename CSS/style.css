@@ -72,56 +72,22 @@ padding: 0 40px 20px 40px;
 
 
 
-
-.cuadradomarta img {
+.imgperfil img {
+    
     width: 250px;
     height: 250px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
 
 }
-
-.cuadradokris img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
-
-}
-
-.cuadradodesi img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
-
-}
-
-.cuadradosara img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
-
-}
-
 
 
 .icon img {
+
 width: 20px;
 height: 20px;
 
 }
-
-
-.icon{
-align-items: flex-end;
-
-}
-
-
-
-
 
 
 
