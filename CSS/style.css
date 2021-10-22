@@ -71,9 +71,8 @@ padding: 0 40px 20px 40px;
 }
 
 .personalempresa h4, h3 {
-
+font-family: Comfortaa;
 text-align: center;
-
 }
 
 
@@ -91,18 +90,19 @@ text-align: center;
     border-radius: 50%;
 }
 
-.icon img {
-width: 100%;
-padding: 0 5px;
-}
-
 .icon {
-display: flex;
-width: 20px;
-height: 20px;
-
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
+.icon a {
+display: flex;
+width: 25px;
+height: 25px;
+padding: 0 5px;
+
+}
 
 .footer {
     display: flex;
