@@ -1,6 +1,6 @@
-.centrar{
+.body{
 
-width: 100%;
+margin: auto;
 }
 
 .header {
@@ -9,6 +9,10 @@ width: 100%;
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    width: 100%;
+    position: fixed;
+    background: white;
+    box-shadow: 0 8px 12px rgb(0 0 0 / 50%), 0 16px 40px rgb(0 0 0 / 50%);
     
         }
 
@@ -25,8 +29,6 @@ width: 100%;
 .header ul li {
     list-style: none;
     display: flex;
-    padding-left: 10px;
-    padding-right: 50px;
     margin: auto;
 
 }
@@ -34,9 +36,15 @@ width: 100%;
 .header ul a {
     text-decoration: none;
     font-family: Comfortaa;
+    padding: 23px 20px 19px 23px;
+    color: #ef2828;
 }
 
-
+.header ul a:hover {
+    color: white;
+    background: #998D8D;
+    box-shadow: 0 8px 12px rgb(0 0 0 / 50%), 0 16px 40px rgb(0 0 0 / 50%);
+}
 .gifcabecera {
    width: 100%; 
      
@@ -70,7 +78,7 @@ padding: 0 40px 20px 40px;
     padding-bottom: 30px;
 }
 
-.personalempresa h4, h3 {
+.personalempresa h3, h4 {
 font-family: Comfortaa;
 text-align: center;
 }
@@ -114,6 +122,7 @@ padding: 0 5px;
   .footer a {
     text-decoration: none;
     font-family: Comfortaa;
+    color: #5c5657;
     
   }
   .footer a:hover {
@@ -121,6 +130,8 @@ padding: 0 5px;
   }
   .footer p {
     font-family: Comfortaa;
+    text-align: center;
+    line-height: 1.5;
   }
   
   .copyright {
