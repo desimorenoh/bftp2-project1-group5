@@ -70,6 +70,12 @@ body {
     justify-content: space-around;
     padding: 30px;
 }
+.cuadradoproyecto p {
+    width: 250px;
+    text-align: center;
+    font-family: comfortaa;
+
+}
 
 .imgcliente {
     display: flex;
