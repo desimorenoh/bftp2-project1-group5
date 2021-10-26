@@ -137,6 +137,7 @@ h4 {
 
 .copyright {
     font-family: Comfortaa;
+    font-size: 12px;
 }
 
 @media (max-width: 1024px) {
@@ -154,5 +155,12 @@ h4 {
 @media (max-width: 1024px) {
     .copyright {
         text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    footer p,
+    a {
+        font-size: 12px;
     }
 }

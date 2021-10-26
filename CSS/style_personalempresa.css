@@ -145,6 +145,14 @@ h4 {
 @media (max-width: 1024px) {
     .copyright {
         text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    footer p,
+    a {
+        font-size: 12px;
     }
 }
 
