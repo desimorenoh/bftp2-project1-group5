@@ -80,8 +80,6 @@ h4 {
     height: 250px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
-    
-           
 }
 
 .imgperfil img {
@@ -89,12 +87,12 @@ h4 {
     border-radius: 50%;
     opacity: 1;
     cursor: pointer;
-  }
-  
+}
+
 .imgperfil img:hover {
     opacity: 0.8;
-
 }
+
 .icon {
     display: flex;
     width: 100%;
@@ -139,4 +137,22 @@ h4 {
 
 .copyright {
     font-family: Comfortaa;
+}
+
+@media (max-width: 1024px) {
+    .textoquienessomos {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .imgperfil img {
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .copyright {
+        text-align: center;
+    }
 }

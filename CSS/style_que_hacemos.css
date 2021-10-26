@@ -70,11 +70,11 @@ body {
     justify-content: space-around;
     padding: 30px;
 }
+
 .cuadradoproyecto p {
     width: 250px;
     text-align: center;
     font-family: comfortaa;
-
 }
 
 .imgcliente {
@@ -89,6 +89,12 @@ body {
 .imgcliente img {
     width: 100%;
     border-radius: 10px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgcliente img:hover {
+    opacity: 0.8;
 }
 
 .titulo {
@@ -130,4 +136,16 @@ body {
 
 .copyright {
     font-family: Comfortaa;
+}
+
+@media (max-width: 1024px) {
+    .textoquehacemos {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .copyright {
+        text-align: center;
+    }
 }
