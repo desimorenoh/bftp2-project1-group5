@@ -85,8 +85,14 @@ h4 {
 .imgperfil img {
     width: 100%;
     border-radius: 50%;
-}
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+.imgperfil img:hover {
+    opacity: 0.8;
 
+}
 .icon {
     display: flex;
     width: 100%;
