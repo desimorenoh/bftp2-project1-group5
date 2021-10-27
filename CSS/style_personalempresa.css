@@ -156,14 +156,14 @@ h4 {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     .personalempresa p {
         font-size: 20px;
         margin: auto;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     .cuadradopersona {
         justify-content: center;
     }
