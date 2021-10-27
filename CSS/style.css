@@ -148,9 +148,23 @@
     }
     
     @media (min-width: 375px) and (max-width: 767px) {
+    
         .imgperfil img {
             border-radius: 10px;
         }
+    
+        .imgperfil {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0;
+        }
+.cuadradopersona h3, h4 {
+    color:white;
+
+}
+.icon {
+    filter: invert(1);
+}
     }
     
     @media (min-width: 768px) and (max-width: 1024px) {
