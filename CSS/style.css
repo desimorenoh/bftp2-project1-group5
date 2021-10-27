@@ -147,7 +147,7 @@
         }
     }
     
-    @media (min-width: 300px) and (max-width: 767px) {
+    @media (max-width: 767px) {
     
         .imgperfil img {
             border-radius: 10px;
