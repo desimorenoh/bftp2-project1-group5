@@ -1,7 +1,7 @@
     body {
         margin: 0;
     }
-
+    
     .header {
         display: flex;
         flex-direction: row;
@@ -13,45 +13,45 @@
         background: white;
         box-shadow: 0 8px 12px rgb(0 0 0 / 50%), 0 16px 40px rgb(0 0 0 / 50%);
     }
-
+    
     .header img {
         width: 120px;
         height: 60px;
     }
-
+    
     .header ul {
         display: flex;
         flex-direction: row;
     }
-
+    
     .header ul li {
         list-style: none;
         display: flex;
         margin: auto;
     }
-
+    
     .header ul a {
         text-decoration: none;
         font-family: Comfortaa;
         padding: 23px 20px 19px 23px;
         color: #ef2828;
     }
-
+    
     .header ul a:hover {
         color: white;
         background: #998D8D;
         box-shadow: 0 8px 12px rgb(0 0 0 / 50%), 0 16px 40px rgb(0 0 0 / 50%);
     }
-
+    
     .gifcabecera {
         width: 100%;
         padding-top: 60px;
     }
-
+    
     .gifcabecera img {
         width: 100%;
     }
-
+    
     .textoquienessomos {
         font-family: handlee;
         font-size: 35px;
@@ -60,7 +60,7 @@
         color: #5c5657;
         padding: 0 40px 20px 40px;
     }
-
+    
     .personalempresa {
         display: flex;
         flex-direction: row;
@@ -68,85 +68,86 @@
         justify-content: space-around;
         padding-bottom: 30px;
     }
-
-    .personalempresa h3, h4 {
+    
+    .personalempresa h3,
+    h4 {
         font-family: Comfortaa;
         text-align: center;
     }
-
+    
     .imgperfil {
         width: 250px;
         height: 250px;
         border-radius: 50%;
         box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 12px 20px rgb(0 0 0 / 20%);
     }
-
+    
     .imgperfil img {
         width: 100%;
         border-radius: 50%;
         opacity: 1;
         cursor: pointer;
     }
-
+    
     .imgperfil img:hover {
         opacity: 0.8;
     }
-
+    
     .icon {
         display: flex;
         width: 100%;
         justify-content: center;
     }
-
+    
     .icon a {
         display: flex;
         width: 25px;
         height: 25px;
         padding: 0 5px 20px 0;
     }
-
+    
     .separator {
         align-items: center;
         border-bottom: 1px solid #EF2828;
         display: flex;
         margin: 20px 16px;
     }
-
+    
     .footer {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
+    
     .footer a {
         text-decoration: none;
         font-family: Comfortaa;
         color: #5c5657;
     }
-
+    
     .footer a:hover {
         color: #EF2828;
     }
-
+    
     .footer p {
         font-family: Comfortaa;
         text-align: center;
         line-height: 1.5;
     }
-
+    
     .copyright {
         font-family: Comfortaa;
         font-size: 12px;
     }
-
+    
     @media (max-width: 1024px) {
         .textoquienessomos {
             font-size: 25px;
             padding: 0 10px 0 10px;
         }
     }
-
-    @media (max-width: 767px) {
+    
+    @media (min-width: 481px) and (max-width: 767px) {
         .imgperfil img {
             border-radius: 10px;
         }
@@ -154,27 +155,42 @@
             border-radius: 10px;
             box-shadow: 0;
         }
+        .personalempresa {
+            flex-direction: column;
+            padding: 30px 0 0 0;
+            margin: auto;
+        }
     }
-
-    @media (max-width: 480px){
+    
+    @media (max-width: 480px) {
         .imgperfil {
             width: 100%;
             height: auto;
             box-shadow: none;
         }
-    }
-
-    @media (min-width: 768px) and (max-width: 1024px) {
-        .imgperfil img {
-            margin: 0;
+        .personalempresa {
+            flex-direction: column;
+            padding: 30px 0 0 0;
         }
     }
-
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .personalempresa {
+            padding: 30px 0 0 0;
+            margin: auto;
+            flex-direction: column;
+        }
+        .cuadradopersona {
+            margin: auto;
+        }
+    }
+    
     @media (max-width: 1024px) {
         .copyright {
             text-align: center;
         }
-        footer p, a {
+        footer p,
+        a {
             font-size: 12px;
         }
     }
