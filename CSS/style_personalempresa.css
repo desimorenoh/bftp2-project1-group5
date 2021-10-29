@@ -142,29 +142,38 @@ h4 {
     font-family: Comfortaa;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 300px) and (max-width: 768px) {
     .copyright {
         text-align: center;
         font-size: 12px;
     }
-}
-
-@media (max-width: 1024px) {
     footer p,
     a {
         font-size: 12px;
     }
-}
-
-@media (max-width: 1024px) {
+    .cuadradopersona {
+        padding: 40px 0 0 0;
+    }
     .personalempresa p {
         font-size: 20px;
         margin: auto;
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+    .copyright {
+        text-align: center;
+        font-size: 12px;
+    }
     .cuadradopersona {
         justify-content: center;
+    }
+    .personalempresa p {
+        font-size: 20px;
+        margin: auto;
+    }
+    footer p,
+    a {
+        font-size: 12px;
     }
 }
